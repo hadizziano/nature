@@ -1,7 +1,7 @@
 body {
   background-image: url("./images/abhishek-prasad-ii0oWs5abCo-unsplash.jpg");
   background-size: 100%;
-  height: 1000px;
+  background-repeat: no-repeat;
 }
 
 .headtext {
@@ -14,9 +14,7 @@ body {
 .headtext2 {
   font-size: 12px;
   margin-top: 5px;
-
   font-family: tahoma;
-
   text-align: justify;
 }
 
