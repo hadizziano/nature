@@ -66,10 +66,27 @@ li a:hover:not(.active) {
 }
 .container {
   width: 30%;
-
+  cursor: pointer;
   padding-bottom: 60px;
   padding-left: 30px;
 }
 .container:hover {
   background-color: rgb(46, 237, 173);
+}
+.footer {
+  margin: 5%;
+  background-color: #04aa6d;
+  width: 300px;
+  height: 300px;
+  animation: footer;
+  animation-duration: 2s;
+  opacity: 60%;
+}
+@keyframes footer {
+  from {
+    opacity: 0%;
+  }
+  to {
+    opacity: 60%;
+  }
 }

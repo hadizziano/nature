@@ -2,6 +2,12 @@
 <head>
   <link rel="stylesheet" href="./style.css" />
   <title>hadizzo portfolio</title>
+  <script>
+    function appear() {
+      document.getElementById("test").hidden =
+        !document.getElementById("test").hidden;
+    }
+  </script>
 </head>
 <body>
   <ul>
@@ -12,7 +18,7 @@
   </ul>
 
   <div class="footercontainer">
-    <div class="container">
+    <div class="container" onclick="appear()">
       <div class="headtext">How to take care of nature</div>
       <div class="headtext2">Hadizzo is a 3d animator expert</div>
       <div class="headtext2">Hadizzo is a front-end developer too</div>
@@ -31,4 +37,5 @@
       <div class="headtext2">He is also an article writer</div>
     </div>
   </div>
+  <div class="footer" id="test" hidden="true">this is a test</div>
 </body>
